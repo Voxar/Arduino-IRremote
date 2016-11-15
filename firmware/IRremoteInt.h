@@ -23,6 +23,9 @@
 #if defined(ARDUINO) && (ARDUINO >= 100)
 #	include <Arduino.h>
 #else
+#if defined(SPARK) || (PLATFORM_ID == 6)
+#include <Particle.h>
+#else
 #	if !defined(IRPRONTO)
 #		include <WProgram.h>
 #	endif

@@ -1,0 +1,7 @@
+{
+  "name": "IRemote",
+  "author": "Rafi Khan <zetoslab@gmail.com>",
+  "license": "GNU LGPL",
+  "version": "2.2.1",
+  "description": "Send and receive IR signals"
+}
